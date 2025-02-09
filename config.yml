@@ -5,12 +5,12 @@
 # Documentation: https://docs.plexdevelopment.net/
 # ===========================================================================
 LicenseKey: "VONY-IO9A-J3GL-5US4"
-MongoURI: "CONNECTION_URL"
+MongoURI: "mongodb+srv://p217:testing123@cluster0.8mng2.mongodb.net/test?retryWrites=true&w=majority" # https://docs.plexdevelopment.net/plex-licenses/creating-a-mongodb-cluster
 DebugMode: false
 
 
 # NOTE: Permission system is coming soon.
-OwnerID: ["USER_ID", "USER_ID"] # The Discord User ID's that will have full access to the store, you can add multiple
+OwnerID: ["695628529760731197"] # The Discord User ID's that will have full access to the store, you can add multiple
 
 # ===========================================================================
 # DISCORD BOT
@@ -18,7 +18,7 @@ OwnerID: ["USER_ID", "USER_ID"] # The Discord User ID's that will have full acce
 # ===========================================================================
 # The discord bot is mostly used for store logs, automatically giving roles, and automatically adding users to the server when they login
 
-Token: "BOT_TOKEN" # If you don't know how to get it, Look at our docs: https://docs.plexdevelopment.net
+Token: "MTMzNzk5MDM2NTU3OTU3OTQ3Mg.GaVicS.R4MrNupSYkeW7fqjuIXG3NIhkJq6u5kov0b5GU" # If you don't know how to get it, Look at our docs: https://docs.plexdevelopment.net
 GuildID: "1327089758131716189" # This is your discord server's ID, Right click on your server icon and copy ID
 autoJoinUsers: true # Should users automatically get added to your Discord server when they login?
 # ===========================================================================
@@ -27,8 +27,8 @@ autoJoinUsers: true # Should users automatically get added to your Discord serve
 # ===========================================================================
 # Discord OAuth2 credentials, get these from the Discord Developer Portal: https://discord.com/developers/applications
 # Note: MAKE SURE TO REPLACE LOCALHOST:3000 WITH THE DOMAIN OR IP YOU ACCESS THE WEBSITE WITH!
-clientID: "CLIENT_ID"
-clientSecret: "CLIENT_SECRET"
+clientID: "1337990365579579472"
+clientSecret: "pj7VzdAzVlgQ-4sXSMUtNrRjzjyPVgKe"
 callbackURL: "http://localhost:3000/auth/discord/callback" # Create a Redirect URL in the Developer Portal and set it to this callback URL
 
 secretKey: "uNLmkcssGY321as1k8s0mj" # This can be anything, We recommend using this https://www.dashlane.com/features/password-generator with at least 20 characters, ({{USERNAME}})
